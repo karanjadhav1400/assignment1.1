@@ -1,0 +1,105 @@
+Script started on 2022-06-30 20:08:42+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="43"]
+(base) ]0;root@TIGER03325: ~root@TIGER03325:~# g[Kgit --versin[Kon
+git version 2.25.1
+(base) ]0;root@TIGER03325: ~root@TIGER03325:~# cd ..
+(base) ]0;root@TIGER03325: /root@TIGER03325:/# ls
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msnap[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34metc[0m  [01;32minit[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+(base) ]0;root@TIGER03325: /root@TIGER03325:/# cd home/k[KKaran/Tiger_Training/git_training/
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git init
+Initialized empty Git repository in /home/Karan/Tiger_Training/git_training/.git/
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mgit text.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git add .
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git sa[Ktatus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   git text.txt[m
+
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git commit -m "firs t commit"
+[master (root-commit) cbc3d80] first commit
+ Committer: root <root@TIGER03325.tigeranalytics.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git text.txt
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git confud[K[Kig --global  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl  use.email "karanj[K.jadhav@tigeranalytics.com"
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git config --global use.email "karan.jadhav@tigeranalytics.com"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kname "karanjadhav1400"[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[Cmmit -m "first commit"[K[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[9Pstatus
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "first commit"[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[Cnfig --global use.name "karanjadhav1400"[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global use.name "karanjadhav1400"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kr.name[K[K[K[Kemail "karanj[K.jadhav@a[Ktigeranalytiv[Kcs.com
+> ^C
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git config --global user.email "karan.jadhav@tigeranalytics.com"
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git config --global user.email "karan.jadhav@tigeranalytics.com"[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.email "karan.jadhav@tigeranalytics.com"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kname "karanjadhav1400"
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# c[Kgi [Kt config user.nam e
+karanjadhav1400
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git config user.name[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kemi al[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca il
+karan.jadhav@tigeranalytics.com
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git config user.email[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cname[K[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[C[C[C[C--global user.name "karanjadhav1400"[C[C[C[C[C[Cemail "karan.jadhav@tigeranalytics.com"[K[C[C[C[C.email "karan.jadhav@tigeranalytics.com"[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[Cmmit -m "first commit"[K
+On branch master
+nothing to commit, working tree clean
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git status
+On branch master
+nothing to commit, working tree clean
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git add .
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git status
+On branch master
+nothing to commit, working tree clean
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git status
+On branch master
+nothing to commit, working tree clean
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# ^V^V[K[Khttps://github.com/karanjadhav1400/git_session.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cghttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [Cehttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[Cthttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C https://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[Chttps://github.co[1Pm/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[Chttps://github.com[1P/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[Chttps://github.com/[1Pkaranjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [Cihttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[Crhttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[Chttps://github.com[1P/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[Cthttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C https://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[Crhttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[Cehttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[Cmhttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[Cohttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[Cthttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[C[Cehttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[C[C[C https://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[C[C[C[Cahttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[C[C[C[C[Cdhttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[C[C[C[C[C[Cdhttps:[C/github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cohttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crhttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cihttps://github.com/karanjadhav1400/git_session.git[A(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgh[Ctps://github.com/karanjadhav1400/git_session.gitihttps://github.com/karanjadhav1400/git_session.git[Cnhttps://github.com/karanjadhav1400/git_session.git[C[C https://github.com/karanjadhav1400/git_session.git[C[C[C
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git push -u origin  master
+Username for 'https://github.com': karanjahd  dhav1400
+Password for 'https://karanjadhav1400@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/karanjadhav1400/git_session.git/'
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git push -u origin master
+Username for 'https://github.com': karanjadhav1400
+Password for 'https://karanjadhav1400@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/karanjadhav1400/git_session.git/'
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# git push -u origin master
+Username for 'https://github.com': karanjadhav1400
+Password for 'https://karanjadhav1400@github.com': 
+Enumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 234 bytes | 117.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/karanjadhav1400/git_session/pull/new/master[K
+remote: 
+To https://github.com/karanjadhav1400/git_session.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+(base) ]0;root@TIGER03325: /home/Karan/Tiger_Training/git_trainingroot@TIGER03325:/home/Karan/Tiger_Training/git_training# exit
+exit
+
+Script done on 2022-06-30 20:36:28+05:30 [COMMAND_EXIT_CODE="0"]
